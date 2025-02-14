@@ -1,19 +1,21 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name:
+      '<i>Merchandising</i>, demostración y presentación en el punto de ventas',
+    Description:
+      'Este material de formación explora el impacto que el <i>merchandising</i> genera en el consumidor al considerarse como una sólida estrategia para impulsar las ventas de productos, así como la importancia de la exhibición, las demostraciones y las presentaciones en el punto de ventas, al comprender cómo estas crean un vínculo entre el cliente y el espacio de venta, y permiten que se fomente el impulso y deseo de compra.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    /*imagenesDecorativasBanner: [
+        {
+          clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+          imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        },
+        {
+          clases: ['banner-principal-decorativo-2'],
+          imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        },
+      ],*/
   },
   menuPrincipal: {
     menu: [
@@ -31,27 +33,44 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: '<i>Merchandising</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Clases de <i>merchandising</i>',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Tipos de <i>merchandising</i>',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Exhibición',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Material P.O.P.',
+            hash: 't_2_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Demostraciones',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Presentaciones',
         desarrolloContenidos: true,
       },
     ],
@@ -86,7 +105,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CF6_631101_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -102,22 +121,171 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
+      tema: '<i>Merchandising</i>',
+      referencia:
+        'Ortiz, G., C., y López, M., K. (2021). Estrategias de innovación en merchandising aplicadas a pymes del sector misceláneas en la localidad de Chapinero en Bogotá.',
+      tipo: 'Documento',
+      link: 'https://digitk.areandina.edu.co/handle/areandina/3838',
+    },
+    {
+      tema: 'Presentaciones',
+      referencia: 'Apple. (2016). Apple – september event 2016. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=NS0txu_Kzl8',
+    },
+    {
+      tema: 'Presentaciones',
+      referencia:
+        'TEDx Talks. (2016). Hablando con Julis | Daniela Galindo | TEDxUniversidadPiloto. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=0SjVNTAVdgs',
+    },
+    {
+      tema: 'Presentaciones',
+      referencia:
+        'Universia. (2020). Los mejores programas para hacer presentaciones como un profesional.',
+      tipo: 'Artículo web',
+      link:
+        'https://www.universia.net/co/actualidad/orientacion-academica/mejores-programas-hacer-presentaciones-como-profesional-1098969.html',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Cabecera de góndola',
+      significado:
+        'extremo de una góndola o una estantería donde se colocan artículos de manera promocional (Visualmerchandisingmkt, 2016).',
+    },
+    {
+      termino: '<em>Display</em>',
+      significado:
+        'pequeños carteles independientes de cualquier material y que pueden contener publicidad sobre uno o varios artículos (Visualmerchandisingmkt, 2016).',
+    },
+    {
+      termino: 'Escaparatismo',
+      significado:
+        'arte de organizar y adornar un establecimiento para que resulten atrayentes al público, aplicando las técnicas de diseño y montaje de los escaparates. El escaparatismo se puede resumir en cuatro palabras: pare, mire, infórmese y compre (Visualmerchandisingmkt, 2016).',
+    },
+    {
+      termino: 'Imagen corporativa',
+      significado:
+        'imagen generalmente aceptada de lo que una compañía “significa”. La creación de una imagen corporativa es un ejercicio en la dirección de la percepción.',
+    },
+    {
+      termino: 'Lineal',
+      significado:
+        'expositores basados en su longitud, espacio para la venta vinculado a las paredes (Visualmerchandisingmkt, 2016).',
+    },
+    {
+      termino: '<em>Merchandising</em>',
+      significado:
+        'su objetivo principal es llamar la atención dirigir al cliente hacia el producto y facilitar la compra (Visualmerchandisingmkt, 2016).',
+    },
+    {
+      termino: '<em>Merchandising</em> de gestión',
+      significado:
+        'acción de poner un producto estratégicamente para su fácil acceso y venta. Por ello hay que ajustar y gestionar correctamente el espacio (Visualmerchandisingmkt, 2016).',
+    },
+    {
+      termino: '<em>Merchandising</em> estratégico',
+      significado:
+        'conjunto de técnicas basadas principalmente en la presentación, rotación y rentabilidad de un producto en el punto de venta (Visualmerchandisingmkt, 2016).',
+    },
+    {
+      termino: 'PLV',
+      significado:
+        'publicidad en el lugar de venta que engloba expositores, carteles, <i>displays</i> y otros elementos que sean portadores de un mensaje publicitario y estén colocados en un punto de venta. También se conoce como «POS display», abreviatura de la expresión en inglés Point of Sale Display (Visualmerchandisingmkt, 2016).',
+    },
+    {
+      termino: 'Puntos calientes',
+      significado:
+        'lugares dentro del establecimiento donde los clientes observan más los productos y tienen mayor actividad, esos lugares suelen ser probadores, mostradores y cajas (Visualmerchandisingmkt, 2016).',
+    },
+    {
+      termino: 'Puntos calientes naturales',
+      significado:
+        'son situados en las cajas, el cruce de pasillos, un claro ejemplo las zonas por donde tienen que pasar para pagar donde se logra exponer gran cantidad de artículos para generar venta por impulso (Visualmerchandisingmkt, 2016).',
+    },
+    {
+      termino: 'Puntos fríos',
+      significado:
+        'son aquellos que están mal situados y que el consumidor apenas visita, los clientes apenas se fijan en los productos situados en esos puntos por lo que tenemos que potenciarlo o convertirlos en puntos calientes (Visualmerchandisingmkt, 2016).',
+    },
+    {
+      termino: 'Rotación',
+      significado:
+        'tiempo que tarda en ser renovado el stock de un producto (Visualmerchandisingmkt, 2016).',
+    },
+    {
+      termino: 'Señalización',
+      significado:
+        'todo tipo de rotulación, textos, etiquetas, expositores utilizados en el interior de un escaparate o de un establecimiento (Visualmerchandisingmkt, 2016).',
+    },
+    {
+      termino: 'Surtido',
+      significado:
+        'conjunto de artículos que un establecimiento ofrece a la venta. Se refiere a la variedad de artículos presentes en la sala de ventas, no a la cantidad de un producto en concreto (Visualmerchandisingmkt, 2016).',
+    },
+    {
+      termino: 'Visual <i>merchandising</i>',
+      significado:
+        'parte esencial para cualquier establecimiento ya que ayuda a incrementar las ventas, mejorando la imagen y la marca ya sea por escaparates atractivos que inciten al público a contemplarlos más tiempo y hacer que entren al establecimiento (Visualmerchandisingmkt, 2016).',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Fernández, R, M., y Pastor, J. (2007). Diccionario Below the Line. CEU. ',
       link: '',
+    },
+    {
+      referencia:
+        'Kotler, P., Bower, J., y Makens, J. (2008). <i>Marketing</i> para el turismo. Pearson Prentice Hall. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Mundo constructor. (2019). Visual merchandising. [gráfico]. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Palomares, B., R. (2009). Merchandising, teoría, práctica estrategia. Gestión 2000.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pérez, L. M., Pérez, F., y Cristo, Y. (2018). Aplicación del merchandising de seducción y el merchandising visual en el Palenque de los. Revista Infociencia, 22(3), 1-12.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pipe Drive. (s. f.). Presentaciones de ventas exitosas: plantillas, ejemplos e ideas.',
+      link: 'https://www.pipedrive.com/es/blog/presentacion-ventas',
+    },
+    {
+      referencia:
+        'Real Academia Española. (2020). Diccionario de la lengua española.',
+      link: 'https://dle.rae.es/est%C3%ADmulo?m=form',
+    },
+    {
+      referencia:
+        'Robles, L., M. (2009). La publicidad en el punto de venta: su realidad y tendencias. Revista de Comunicación de la SEECI, (18)79-128. ',
+      link: 'https://www.redalyc.org/pdf/5235/523552804003.pdf',
+    },
+    {
+      referencia: 'Seggiaro, M. (2017). Zonas y circulación. [Infografía].',
+      link: 'https://www.marcelaseggiaro.com/wp-content/uploads/2017/11/6.png',
+    },
+    {
+      referencia:
+        'Universia. (2020). Los mejores programas para hacer presentaciones como un profesional.',
+      link:
+        'https://www.universia.net/co/actualidad/orientacion-academica/mejores-programas-hacer-presentaciones-como-profesional-1098969.html',
+    },
+    {
+      referencia:
+        'Visualmerchanisingmkt. (2016). Glosario de términos visual merchandising.',
+      link: 'https://visualmerchandisingmkt.wordpress.com/',
     },
   ],
   creditos: [
@@ -125,14 +293,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Claudia Johana Gómez',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -140,9 +308,37 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Paolo Andrés Cantillo Largo',
+          cargo: 'Experto temático',
+          centro: 'Centro de comercio - Regional Antioquia',
+        },
+        {
+          nombre: 'Miroslava González Hernández',
+          cargo: 'Diseñador y evaluador instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Revisora metodológica y pedagógica',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de estilo',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Diana Lizeth Lozada Díaz',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -150,19 +346,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Lucenith Pinilla Moreno',
+          cargo: 'Desarrolladora <i>full-stack</i> Junior',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y producción audiovisual',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -170,14 +366,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Andrea Ardila Chaparro',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -188,4 +384,25 @@ export default {
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
+  // creditosInicio: [
+  //   {
+  //     titulo: 'En alianza',
+  //     contenido: [
+  //       require('@/assets/template/logo-sena-naranja.svg'),
+  //       require('@/assets/template/mintic.jpg'),
+  //       require('@/assets/template/minsalud.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'En compañía',
+  //     contenido: [
+  //       require('@/assets/template/presidencia.jpg'),
+  //       require('@/assets/template/ecopetrol.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'Una iniciativa',
+  //     contenido: [require('@/assets/template/santander.jpg')],
+  //   },
+  // ],
 }

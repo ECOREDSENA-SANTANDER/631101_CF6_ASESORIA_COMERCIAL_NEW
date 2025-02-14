@@ -1,1 +1,2 @@
-module.exports = 'Ecored Base PKG'
+module.exports =
+  'Merchandising, demostración y presentación en el punto de ventas'
