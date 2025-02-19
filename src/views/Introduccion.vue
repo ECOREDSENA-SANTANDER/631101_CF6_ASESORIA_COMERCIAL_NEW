@@ -9,7 +9,7 @@
             i.fas.fa-info
         h1 Introducción
   
-      p.mb-5 Existen estrategias de mercado que son fundamentales para que una empresa responda acertadamente a las necesidades de su cliente. En este componente formativo, tendrá la oportunidad de abordar los aspectos generales del #[em merchandisig] y las herramientas principales que integran este conjunto de estrategias, como la exhibición de productos, demostración y presentación en el punto de ventas. Le invitamos a consultar el siguiente video que destaca la importancia de este conjunto de técnicas, que motivan y propician las ventas exitosas:
+      p.mb-5 Existen estrategias de mercado que son fundamentales para que una empresa responda acertadamente a las necesidades de su cliente. En este componente formativo, tendrá la oportunidad de abordar los aspectos generales del #[em merchandising] y las herramientas principales que integran este conjunto de estrategias, como la exhibición de productos, demostración y presentación en el punto de ventas. Le invitamos a consultar el siguiente video que destaca la importancia de este conjunto de técnicas, que motivan y propician las ventas exitosas:
       
       figure
         .video
