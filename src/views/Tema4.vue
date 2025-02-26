@@ -37,7 +37,7 @@
             .col.mb-3.md-sm-0.align-items-center
               h5.text-white.mb-4.mt-5 Ejemplo de una presentación
               p.text-white Como ejemplo, se tomará la presentación que Apple realizó del iPhone 7. Apple siempre ha logrado que sus presentaciones generen altas expectativas, manteniendo una estética profesional, limpia y atractiva, que rara vez decepciona.
-              p.text-white Para entender mejor lo que es una presentación efectiva, consulte el material complementario disponible.
+              p.text-white Para entender mejor lo que es una presentación efectiva, consulte el siguiente video.
               .row.mb-5.me-3
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://youtu.be/R-sLPTUEq6E?si=kl-clg9ubVZiuqdn" target="_blank")

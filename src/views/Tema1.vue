@@ -29,15 +29,15 @@
             .row.align-items-center.justify-content-center.bgfondotema1.p-1
               .col-4.col-md-2.col-lg-4
                 img.mt-4(src='@/assets/curso/temas/tema1/tar1-2.png', alt='')
-              p.text-center.p-4.mb-4 “El #[em merchandising] es la implantación y el control necesario para la comercialización de bienes y servicios, en los lugares, en los momentos, en los precios en las cantidades susceptibles de facilitar la consecución de los objetivos de #[em marketing] de la empresa”. (Fernández y Pastor, 2007).
+              p.text-center.p-4.mb-4 “El #[em merchandising] es la implantación y el control necesario para la comercialización de bienes y servicios, en los lugares, en los momentos, en los precios en las cantidades susceptibles de facilitar la consecución de los objetivos de marketing de la empresa”. (Fernández y Pastor, 2007).
         .col-sm-12.col-lg-4.col-md-12.mb-4(data-aos="fade-right")
           .overflow-hidden.h-100.p-2
             .row.align-items-center.justify-content-center.bgfondotema1.p-1
               .col-4.col-md-2.col-lg-4
                 img.mt-4(src='@/assets/curso/temas/tema1/tar1-3.png', alt='')
-              p.text-center.p-4.mb-5 “El #[em marketing] evoluciona para estimular la intención de compra (el #[em merchandising]) para provocar el deseo de poseer o consumir el producto a través de un escenario con una atmósfera adaptada a la mente del consumidor” (Palomares, 2009).
+              p.text-center.p-4.mb-5 “El marketing evoluciona para estimular la intención de compra (el #[em merchandising]) para provocar el deseo de poseer o consumir el producto a través de un escenario con una atmósfera adaptada a la mente del consumidor” (Palomares, 2009).
   
-      p.mb-5 El #[em merchandising], entonces, se puede definir como una técnica del #[em marketing] aplicada y desarrollada a fabricantes y distribuidores dirigida a estimular el deseo y producir la compra. Ahora bien, desde la perspectiva de la comunicación visual, el #[em merchandising] busca influir en el público a través de los sentidos, teniendo en cuenta que las personas reciben estímulos a través de los sentidos en 80 % visuales, 10 % estímulos sonoros y el otro 10 % entre el tacto, olfato y gusto.
+      p.mb-5 El #[em merchandising], entonces, se puede definir como una técnica del marketing aplicada y desarrollada a fabricantes y distribuidores dirigida a estimular el deseo y producir la compra. Ahora bien, desde la perspectiva de la comunicación visual, el #[em merchandising] busca influir en el público a través de los sentidos, teniendo en cuenta que las personas reciben estímulos a través de los sentidos en 80 % visuales, 10 % estímulos sonoros y el otro 10 % entre el tacto, olfato y gusto.
   
       .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
         .col-lg-12
@@ -48,7 +48,7 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    h5.mb-0.text-white Como técnica del #[em marketing], siempre se buscará la rentabilidad, disponibilidad, impacto, precio y exhibición.
+                    h5.mb-0.text-white Como técnica del marketing, siempre se buscará la rentabilidad, disponibilidad, impacto, precio y exhibición.
   
       p.mb-5 No obstante, esta técnica comercial comenzó con el surgimiento de los puntos de ventas modernos, en los que se aplicaban diversas acciones de visualización de los productos para potenciar la mercadería, así como la rápida rotación de inventarios. De esta manera, se destacan los siguientes hitos:
   
@@ -134,14 +134,10 @@
             li
               .lista-ol--cuadro__vineta
                 span 4
-              span.mb-0 Integridad en el suministro del producto para que lo seleccione el cliente.
-            li
-              .lista-ol--cuadro__vineta
-                span 5
               span.mb-0 Destacar el producto frente a la competencia en la vitrina o estantería.
             li
               .lista-ol--cuadro__vineta
-                span 6
+                span 5
               span.mb-0 
               Uso Uso adecuado del espacio en la estantería.
   
@@ -167,7 +163,7 @@
                   span.mb-2 Controlar la exhibición en el punto de venta.
                 li.mb-0 
                   i.fas.fa-check-circle
-                  span.mb-2 Relaciones en el canal entre F y D (#[em Trade marketing]).
+                  span.mb-2 Relaciones en el canal entre F y D (#[em Trade] marketing).
             .tarjeta.color-secundario--borde.p-4(titulo="Distribuidor")
               h4.mt-3.ps-3 Distribuidor
               ul.lista-ul--color.fa-al.p-3
@@ -208,7 +204,7 @@
       #t_1_1.titulo-segundo.mb-4
         h2 1.1 Clases de #[em merchandising]
   
-      p.mb-5 No hay clasificaciones absolutas en el mundo del #[em marketing], teniendo en cuenta que algunos autores y expertos lo clasifican de diferentes maneras. De acuerdo con el ciclo de vida del producto, existen cuatro clases de #[em merchandising]: de nacimiento, de ataque, de mantenimiento y de defensa; cada uno conlleva unas actividades relacionadas con el producto, así:
+      p.mb-5 No hay clasificaciones absolutas en el mundo del marketing, teniendo en cuenta que algunos autores y expertos lo clasifican de diferentes maneras. De acuerdo con el ciclo de vida del producto, existen cuatro clases de #[em merchandising]: de nacimiento, de ataque, de mantenimiento y de defensa; cada uno conlleva unas actividades relacionadas con el producto, así:
   
       .row.mb-4(data-aos="zoom-in")
         SlyderF(columnas="col-lg-6 col-xl-4 col-md-6").mb-4

@@ -218,7 +218,7 @@
               br
               br
   
-      p.mb-5 Este concepto ha estado enmarcado entre diferentes opiniones y aportes de profesionales del #[em marketing]. Entre las diferentes definiciones y acuerdos que se han escrito, se toman como referencia algunos de ellos para describir esta importante estrategia de mercadeo:
+      p.mb-5 Este concepto ha estado enmarcado entre diferentes opiniones y aportes de profesionales del marketing. Entre las diferentes definiciones y acuerdos que se han escrito, se toman como referencia algunos de ellos para describir esta importante estrategia de mercadeo:
       h4.mb-5.text-center #[b Definiciones de P.O.P.]
   
       .row.justify-content-center.align-items-center.mb-0.mt-4(data-aos="zoom-in")
@@ -228,7 +228,7 @@
               .bloque-texto-f__comillas.nuevo2
                 i.fas.fa-quote-left
                 i.fas.fa-quote-right
-              h4.text-regular.bloque-texto-f__texto.mx-3 POPAI y Graphispack Asociación la definen como una “técnica del #[em marketing] (…) cuyo objetivo es llamar la atención sobre los detalles o características del producto (…) que otorgan un valor añadido al mismo sobre el resto de productos promocionados en el sitio en el que se puede comprar”.
+              h4.text-regular.bloque-texto-f__texto.mx-3 POPAI y Graphispack Asociación la definen como una “técnica del marketing (…) cuyo objetivo es llamar la atención sobre los detalles o características del producto (…) que otorgan un valor añadido al mismo sobre el resto de productos promocionados en el sitio en el que se puede comprar”.
           .row.x.px-5
             .bloque-texto-f.nuevo.color-primario.pt-4.px-5.mb-5
               .bloque-texto-f__comillas.nuevo.bgazulclaro
@@ -255,7 +255,7 @@
             .bloque-texto-f__comillas
               i.fas.fa-quote-left
               i.fas.fa-quote-right
-            h4.text-regular.bloque-texto-f__texto.mx-3 A pesar de ser en el punto de venta donde el consumidor toma la mayor parte de decisiones de compra, la publicidad en el punto de venta, continúa siendo la gran desconocida, aunque la venta impersonal, las grandes superficies comerciales y la alta competencia por la gran variedad de productos, han proliferado el uso de la misma”. El #[em marketing] en el punto de venta (#[em marketing at retail]) enmarca un conjunto de técnicas que le ayudan el comerciante a atraer público en el mismo lugar donde se realiza la compra.
+            h4.text-regular.bloque-texto-f__texto.mx-3 A pesar de ser en el punto de venta donde el consumidor toma la mayor parte de decisiones de compra, la publicidad en el punto de venta, continúa siendo la gran desconocida, aunque la venta impersonal, las grandes superficies comerciales y la alta competencia por la gran variedad de productos, han proliferado el uso de la misma”. El marketing en el punto de venta (marketing #[em at retail]) enmarca un conjunto de técnicas que le ayudan el comerciante a atraer público en el mismo lugar donde se realiza la compra.
             .bloque-texto-f__autor.mb-3
               h3.mb-0 - Mahave (2003, p. 10)
   
@@ -273,7 +273,7 @@
                   ul.lista-ul--color.fa-al.p-3
                     li.mb-0 
                       i.fas.fa-check-circle
-                      span.mb-2 #[b Puntual:] son aquellas que se realizan con el objeto de dar a conocer una promoción u oferta que tiene una duración determinada –menos de cuatro semanas– y que se realiza como algo extraordinario, es decir, que no entra dentro de la dinámica habitual del producto o servicio.
+                      span.mb-2 #[b Puntual:] son aquellas que se realizan con el objeto de dar a conocer una promoción u oferta que tiene una duración determinada – menos de cuatro semanas – y que se realiza como algo extraordinario, es decir, que no entra dentro de la dinámica habitual del producto o servicio.
                     li.mb-0 
                       i.fas.fa-check-circle
                       span.mb-2 #[b Estacional:] es aquella que se realiza para un periodo determinado generalmente caracterizado por unos altos índices de consumo de ese producto o servicio. Por ejemplo los juguetes en navidad o las cremas solares en verano. Suelen tener una duración de entre tres y cuatro meses.
@@ -396,7 +396,7 @@
                   .col-lg-4.col-md-8.col-8.mb-4.mb-md-0
                     img(src='@/assets/curso/temas/tema2/lt1-9.png', alt='')
   
-      p Como se mencionó anteriormente, la publicidad en el punto de venta (P.O.P.) se usa para promover la venta del producto hacia el consumidor (#[em marketing] de empuje), brindar información complementaria y generar un canal de comunicación. Su presencia puede ser decisiva en el proceso de compra.
+      p Como se mencionó anteriormente, la publicidad en el punto de venta (P.O.P.) se usa para promover la venta del producto hacia el consumidor (marketing de empuje), brindar información complementaria y generar un canal de comunicación. Su presencia puede ser decisiva en el proceso de compra.
       p.mb-5 Para que el material P.O.P. cumpla con los objetivos de la marca, se presentan las siguientes recomendaciones:
   
       .row.justify-content-center.align-items-center
@@ -413,7 +413,7 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    p.mb-0.text-white Finalmente, las acciones de #[em marketing] en el punto de venta deben centrarse en generar un estímulo en el consumidor, entendiendo el estímulo como “agente físico, químico, mecánico, etc., que desencadena una reacción funcional en un organismo” (RAE, 2020). Por esta razón, la publicidad en el punto de venta se debe encargar especialmente de estimular los sentidos de los consumidores.
+                    p.mb-0.text-white Finalmente, las acciones de marketing en el punto de venta deben centrarse en generar un estímulo en el consumidor, entendiendo el estímulo como “agente físico, químico, mecánico, etc., que desencadena una reacción funcional en un organismo” (RAE, 2020). Por esta razón, la publicidad en el punto de venta se debe encargar especialmente de estimular los sentidos de los consumidores.
   
   
   </template>

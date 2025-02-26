@@ -131,7 +131,7 @@ export default {
       tema: 'Presentaciones',
       referencia: 'Apple. (2016). Apple – september event 2016. Youtube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=NS0txu_Kzl8',
+      link: 'https://www.youtube.com/watch?v=R-sLPTUEq6E',
     },
     {
       tema: 'Presentaciones',
@@ -239,7 +239,7 @@ export default {
     },
     {
       referencia:
-        'Kotler, P., Bower, J., y Makens, J. (2008). <i>Marketing</i> para el turismo. Pearson Prentice Hall. ',
+        'Kotler, P., Bower, J., y Makens, J. (2008). Marketing para el turismo. Pearson Prentice Hall. ',
       link: '',
     },
     {
