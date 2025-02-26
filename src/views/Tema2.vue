@@ -221,7 +221,7 @@
       p.mb-5 Este concepto ha estado enmarcado entre diferentes opiniones y aportes de profesionales del marketing. Entre las diferentes definiciones y acuerdos que se han escrito, se toman como referencia algunos de ellos para describir esta importante estrategia de mercadeo:
       h4.mb-5.text-center #[b Definiciones de P.O.P.]
   
-      .row.justify-content-center.align-items-center.mb-0.mt-4(data-aos="zoom-in")
+      .row.justify-content-center.align-items-center(data-aos="zoom-in")
         .col-lg-6.col-sm-12.col-md-12.mb-5.mb-lg-0
           .row
             .bloque-texto-f.px-5
@@ -247,9 +247,9 @@
               .bloque-texto-f__comillas.nuevo.bgazulclaro
                 i.fas.fa-quote-right
                 i.fas.fa-quote-right
-              h4.text-regular.bloque-texto-f__texto.autor2.mb-5.text-center - (Kotler, Bower y Makens, 2008)
+              h4.text-regular.bloque-texto-f__texto.autor2.mb-4.text-center - (Kotler, Bower y Makens, 2008)
   
-      .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in")
+      .row.justify-content-center.align-items-center(data-aos="zoom-in")
         .col-lg-10.col-sm-12.col-md-12
           .bloque-texto-f.color-primario.pt-4.px-5.mb-5
             .bloque-texto-f__comillas
@@ -257,7 +257,7 @@
               i.fas.fa-quote-right
             h4.text-regular.bloque-texto-f__texto.mx-3 A pesar de ser en el punto de venta donde el consumidor toma la mayor parte de decisiones de compra, la publicidad en el punto de venta, continúa siendo la gran desconocida, aunque la venta impersonal, las grandes superficies comerciales y la alta competencia por la gran variedad de productos, han proliferado el uso de la misma”. El marketing en el punto de venta (marketing #[em at retail]) enmarca un conjunto de técnicas que le ayudan el comerciante a atraer público en el mismo lugar donde se realiza la compra.
             .bloque-texto-f__autor.mb-3
-              h3.mb-0 - Mahave (2003, p. 10)
+              h4.text-regular.mb-0 - Mahave (2003, p. 10)
   
   
       p.mb-4 La publicidad en el punto de venta continúa generando un vínculo entre el consumidor y la marca a través de una adecuada promoción de sus productos; y esta se divide en las siguientes clases:
@@ -399,11 +399,59 @@
       p Como se mencionó anteriormente, la publicidad en el punto de venta (P.O.P.) se usa para promover la venta del producto hacia el consumidor (marketing de empuje), brindar información complementaria y generar un canal de comunicación. Su presencia puede ser decisiva en el proceso de compra.
       p.mb-5 Para que el material P.O.P. cumpla con los objetivos de la marca, se presentan las siguientes recomendaciones:
   
-      .row.justify-content-center.align-items-center
+      .row.justify-content-center.align-items-center.mb-4
         .col-sm-12.col-md-12.col-lg-10(data-aos="zoom-in")
-          h4 Recomendaciones para el uso del P.O.P.
-          LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoC")
-  
+          h4.text-center Recomendaciones para el uso del P.O.P.
+
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
+        .col-lg-4.col-md-8
+          img(src='@/assets/curso/temas/tema2/img5.png', alt='')
+        .col-lg-6.col-md-12.col-sm-12
+          .tarjeta.tarjeta--azulclaro
+            SlyderA(tipo="b").p-4
+              .row.justify-content-center.align-items-center
+                .col-lg-3.col-md-3.col-6
+                  img(src='@/assets/curso/temas/tema2/ico2-1.png', alt='Texto que describa la imagen')
+                .col-lg-8.mb-4.mb-md-0 
+                  h5 Análisis de la competencia
+                  p(data-aos="zoom-in-left") Realizar un análisis de la competencia siempre será una buena opción para generar ideas innovadoras.
+              .row.justify-content-center.align-items-center
+                .col-lg-3.col-md-3.col-6
+                  img(src='@/assets/curso/temas/tema2/ico2-2.png', alt='Texto que describa la imagen')
+                .col-lg-8.mb-4.mb-md-0 
+                  h5 #[em Benchmarking]
+                  p(data-aos="zoom-in-left") Con el mercado en constante evolución, es importante estar siempre un paso adelante. Por eso, hay que pensar en estrategias a corto y a largo plazo.
+              .row.justify-content-center.align-items-center
+                .col-lg-3.col-md-3.col-6
+                  img(src='@/assets/curso/temas/tema2/ico2-3.png', alt='Texto que describa la imagen')
+                .col-lg-8.mb-4.mb-md-0 
+                  h5 Conocimiento del producto
+                  p(data-aos="zoom-in-left") Tener claro cuál es la categoría que se está manejando para no afectar la proyección de la imagen.
+              .row.justify-content-center.align-items-center
+                .col-lg-3.col-md-3.col-6
+                  img(src='@/assets/curso/temas/tema2/ico2-4.png', alt='Texto que describa la imagen')
+                .col-lg-8.mb-4.mb-md-0 
+                  h5 Beneficios del producto
+                  p(data-aos="zoom-in-left") Los mensajes en la publicidad en el punto de venta, deben enviar un mensaje al consumidor con los beneficios del producto, modo de uso, fecha de vencimiento, etc, para brindar una mayor confianza en la compra.
+              .row.justify-content-center.align-items-center
+                .col-lg-3.col-md-3.col-6
+                  img(src='@/assets/curso/temas/tema2/ico2-5.png', alt='Texto que describa la imagen')
+                .col-lg-8.mb-4.mb-md-0 
+                  h5 Buen diseño
+                  p(data-aos="zoom-in-left") Es muy importante enfocar el desarrollo de la estrategia P.O.P. en la línea de diseño, así el cliente podrá reconocer la marca de manera fácil pues le es atractiva.
+              .row.justify-content-center.align-items-center
+                .col-lg-3.col-md-3.col-6
+                  img(src='@/assets/curso/temas/tema2/ico2-6.png', alt='Texto que describa la imagen')
+                .col-lg-8.mb-4.mb-md-0 
+                  h5 Destacado
+                  p(data-aos="zoom-in-left") Procurar que la publicidad en el punto de venta se destaque.
+              .row.justify-content-center.align-items-center
+                .col-lg-3.col-md-3.col-6
+                  img(src='@/assets/curso/temas/tema2/ico2-7.png', alt='Texto que describa la imagen')
+                .col-lg-8.mb-4.mb-md-0 
+                  h5 No saturar
+                  p(data-aos="zoom-in-left") Si bien, es una publicidad muy importante para cada producto, se recomienda no saturar demasiado el punto de venta.
+
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-12(data-aos="zoom-in")
           .tarjeta.color-acento-contenido.p-3
@@ -423,49 +471,6 @@ export default {
   name: 'Tema2',
   data: () => ({
     // variables de vue
-    datosLineaTiempoC: [
-      {
-        titulo: 'Análisis de la competencia',
-        texto:
-          'Realizar un análisis de la competencia siempre será una buena opción para generar ideas innovadoras.',
-        icono: require('@/assets/curso/temas/tema2/ps1-1.png'),
-      },
-      {
-        titulo: '<i>Benchmarking</i>',
-        texto:
-          'Con el mercado en constante evolución, es importante estar siempre un paso adelante. Por eso, hay que pensar en estrategias a corto y a largo plazo.',
-        icono: require('@/assets/curso/temas/tema2/ps1-2.png'),
-      },
-      {
-        titulo: 'Conocimiento del producto',
-        texto:
-          'Tener claro cuál es la categoría que se está manejando para no afectar la proyección de la imagen.',
-        icono: require('@/assets/curso/temas/tema2/ps1-3.png'),
-      },
-      {
-        titulo: 'Beneficios del producto',
-        texto:
-          'Los mensajes en la publicidad en el punto de venta, deben enviar un mensaje al consumidor con los beneficios del producto, modo de uso, fecha de vencimiento, etc, para brindar una mayor confianza en la compra.',
-        icono: require('@/assets/curso/temas/tema2/ps1-4.png'),
-      },
-      {
-        titulo: 'Buen diseño',
-        texto:
-          'Es muy importante enfocar el desarrollo de la estrategia P.O.P. en la línea de diseño, así el cliente podrá reconocer la marca de manera fácil pues le es atractiva.',
-        icono: require('@/assets/curso/temas/tema2/ps1-5.png'),
-      },
-      {
-        titulo: 'Destacado',
-        texto: 'Procurar que la publicidad en el punto de venta se destaque.',
-        icono: require('@/assets/curso/temas/tema2/ps1-6.png'),
-      },
-      {
-        titulo: 'No saturar',
-        texto:
-          'Si bien, es una publicidad muy importante para cada producto, se recomienda no saturar demasiado el punto de venta.',
-        icono: require('@/assets/curso/temas/tema2/ps1-7.png'),
-      },
-    ],
   }),
   mounted() {
     this.$nextTick(() => {
