@@ -3,7 +3,7 @@ export default {
     Name:
       '<i>Merchandising</i>, demostración y presentación en el punto de ventas',
     Description:
-      'Este material de formación explora el impacto que el <i>merchandising</i> genera en el consumidor al considerarse como una sólida estrategia para impulsar las ventas de productos, así como la importancia de la exhibición, las demostraciones y las presentaciones en el punto de ventas, al comprender cómo estas crean un vínculo entre el cliente y el espacio de venta, y permiten que se fomente el impulso y deseo de compra.',
+      'Este material de formación explora el impacto que el <i>merchandising</i> genera en el consumidor al considerarse como una sólida estrategia para impulsar las ventas de productos, así como la importancia de la exhibición, las demostraciones y las presentaciones en el punto de venta, al comprender cómo estas crean un vínculo entre el cliente y el espacio de venta, y permiten que se fomente el impulso y deseo de compra.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     /*imagenesDecorativasBanner: [
@@ -239,7 +239,7 @@ export default {
     },
     {
       referencia:
-        'Kotler, P., Bower, J., y Makens, J. (2008). Marketing para el turismo. Pearson Prentice Hall. ',
+        'Kotler, P., Bower, J., y Makens, J. (2008). <i>Marketing</i> para el turismo. Pearson Prentice Hall. ',
       link: '',
     },
     {

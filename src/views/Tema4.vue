@@ -157,8 +157,7 @@
                 figure
                   img(src="@/assets/curso/temas/tema4/3.png", alt="alt").img80
               .col
-                p.mb-0 El objetivo es transmitir calma, confianza y seguridad para el cierre del trato, por tanto, el contacto visual
-                p demuestra que el presentador está interesado en los prospectos y en lo que ellos dicen. 
+                p El objetivo es transmitir calma, confianza y seguridad para el cierre del trato, por tanto, el contacto visual demuestra que el presentador está interesado en los prospectos y en lo que ellos dicen. 
           .crd.crd--avatarHorizontal.crd--4.py-1
             .row.align-items-center
               .col-auto
