@@ -13,8 +13,8 @@
       
       figure
         .video
-          iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/Uz7Dw8u1FFo?si=IWGwZKfAjJ_zYshP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-        figcaption Video: #[em Merchandising] demostración y presentación en el punto de ventas introducción.
+          iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/IeoRmDXbDYQ?si=FNCNzUpWo2mGHGni" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        figcaption Video: #[em Merchandising] demostración y presentación en el punto de ventas.
   
   
   </template>
