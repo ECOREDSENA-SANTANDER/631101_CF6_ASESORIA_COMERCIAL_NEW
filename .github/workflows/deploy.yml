@@ -38,7 +38,6 @@ jobs:
           git rm -rf .  # Limpia la rama gh-pages
           mv dist/* .
           rm -rf dist
-          mv node_modules/* .
           rm -rf node_modules
           git add .
           git commit -m "Deploy to GitHub Pages 🚀"
