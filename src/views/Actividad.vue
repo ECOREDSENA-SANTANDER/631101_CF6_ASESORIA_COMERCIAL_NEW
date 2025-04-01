@@ -22,6 +22,8 @@ export default {
       titulo: 'Cuestionario',
       introduccion:
         '<b> Objetivo:</b> Capacitar a los participantes en estrategias efectivas de <i>merchandising</i>, demostración y presentación en el punto de venta, con el fin de potenciar la atracción del cliente, impulsar el deseo de compra y optimizar la experiencia de venta.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       barajarPreguntas: true,
       preguntas: [
         {
