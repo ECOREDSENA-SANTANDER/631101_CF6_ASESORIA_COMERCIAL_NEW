@@ -1,10 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Inicio from '@ecored-sena/base-kit/plugin/components/Inicio.vue'
-import Curso from '@ecored-sena/base-kit/plugin/components/plantilla/Curso.vue'
-import Glosario from '@ecored-sena/base-kit/plugin/components/Glosario.vue'
-import Referencias from '@ecored-sena/base-kit/plugin/components/Referencias.vue'
-import Creditos from '@ecored-sena/base-kit/plugin/components/Creditos.vue'
+import Inicio from 'ecored-pkg-fliz/plugin/components/Inicio.vue'
+import Curso from 'ecored-pkg-fliz/plugin/components/plantilla/Curso.vue'
+import Glosario from 'ecored-pkg-fliz/plugin/components/Glosario.vue'
+import Referencias from 'ecored-pkg-fliz/plugin/components/Referencias.vue'
+import Creditos from 'ecored-pkg-fliz/plugin/components/Creditos.vue'
+import Complementario from 'ecored-pkg-fliz/plugin/components/Complementario.vue'
 
 Vue.use(VueRouter)
 
@@ -59,6 +60,30 @@ const router = new VueRouter({
           component: () =>
             import(/* webpackChunkName: "tema5" */ '../views/Tema5.vue'),
         },
+        {
+          path: 'tema6',
+          name: 'tema6',
+          component: () =>
+            import(/* webpackChunkName: "tema6" */ '../views/Tema6.vue'),
+        },
+        {
+          path: 'tema7',
+          name: 'tema7',
+          component: () =>
+            import(/* webpackChunkName: "tema7" */ '../views/Tema7.vue'),
+        },
+        {
+          path: 'tema8',
+          name: 'tema8',
+          component: () =>
+            import(/* webpackChunkName: "tema8" */ '../views/Tema8.vue'),
+        },
+        {
+          path: 'tema9',
+          name: 'tema9',
+          component: () =>
+            import(/* webpackChunkName: "tema9" */ '../views/Tema9.vue'),
+        },
       ],
     },
     {
@@ -71,6 +96,11 @@ const router = new VueRouter({
       path: '/glosario',
       name: 'glosario',
       component: Glosario,
+    },
+    {
+      path: '/complementario',
+      name: 'complementario',
+      component: Complementario,
     },
     {
       path: '/referencias',
